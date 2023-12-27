@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@800;900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------  ------------------ */
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#0c0c0c,#2a78e6) ;
+}
+
+
+
+/* ------------------------- styling the header ------------------------ */
+.head h1{
+    margin-top: 2px;
+    color: #807f7f;
+}
+.head h1 span{
+    color: rgb(162, 223, 39);
+}
+
+.head h1:hover{
+    color: rgb(162, 223, 39);
+    cursor: pointer;
+}
+.head h1 span:hover{
+    color: #807f7f;
+    cursor: pointer;
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px #4E4C4E , 0.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px #0c0c0c rgbs(84,84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 22px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.equalBTN{
+    background-color: rgb(250, 167, 14);
+}
